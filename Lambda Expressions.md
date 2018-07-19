@@ -20,7 +20,7 @@ How do we create a Lambda Expression?
         public void performSum(int a, int b);
     }
     
-    Here's a method of a certain class that creates a lambda expression to perform sum of 2 numbers.
+    Here's a method of a some class that creates a lambda expression to perform sum of 2 numbers.
     
     public void printSum() {
         SampleInterface si = (a, b) -> a + b;
@@ -28,7 +28,7 @@ How do we create a Lambda Expression?
     }
     
 Understanding a Lambda Expression
-  Let's consider the same Lambda expression mentioned above starting with more detailed version of it. 
+  Let's consider the same Lambda expression mentioned above, starting with a more detailed version of it. 
   
   1. SampleInterface si = (int a, int b) -> { return a + b; };
      Provide an implementation to the method performSum such that, when 2 arguments a and b of type integer are passed return      the sum of a and b. 
@@ -37,6 +37,8 @@ Understanding a Lambda Expression
   2. SimpleInterface si = (a, b) -> { a + b; };
   
   Single statement lambdas are called as 'lambda expressions'. These come with privilege of not necessarily having curly braces or return statements. But when a lambda has more than one statement, called as 'lambda block' those exceptions are not allowed. 
+  
+
   
   
 What are Default Methods?
